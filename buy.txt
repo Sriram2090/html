@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bikes for Sale</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Bikes for Sale</h1>
+    </header>
+    <main>
+      <div class="bike">
+        <img src="https://via.placeholder.com/150x150" alt="Bike">
+        <h2>Mountain Bike</h2>
+        <p>Price: $500</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="bike">
+        <img src="https://via.placeholder.com/150x150" alt="Bike">
+        <h2>Road Bike</h2>
+        <p>Price: $700</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="bike">
+        <img src="https://via.placeholder.com/150x150" alt="Bike">
+        <h2>Hybrid Bike</h2>
+        <p>Price: $600</p>
+        <button>Add to Cart</button>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2023 Bikes for Sale</p>
+    </footer>
+  </body>
+</html>

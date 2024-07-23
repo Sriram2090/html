@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bikes for Sale - Buying Page</title>
+	<link rel="stylesheet" type="text/css" href="C:\Users\Lenovo\Desktop\bikes for sale\buy1.css">
+</head>
+<body>
+	<header>
+		<h1>Bikes for Sale</h1>
+		<nav>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="about1.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="login.html">Logout</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<h2>Buy a Bike</h2>
+		<p>Please fill out the following form to complete your purchase:</p>
+		
+		<form action="#" method="post">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+			
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+			
+			<label for="phone">Phone:</label>
+			<input type="tel" id="phone" name="phone" required>
+			
+			<label for="bike">Bike:</label>
+			<select id="bike" name="bike" required>
+				<option value="">Select a bike</option>
+				<option value="mountain">Mountain Bike</option>
+				<option value="road">Road Bike</option>
+				<option value="sports">Sports Bike</option>
+			</select>
+			
+			<label for="quantity">Quantity:</label>
+			<input type="number" id="quantity" name="quantity" min="1" required>
+			
+			<label for="delivery">Delivery:</label>
+			<input type="radio" id="delivery-yes" name="delivery" value="yes" required>
+			<label for="delivery-yes">Yes</label>
+			<input type="radio" id="delivery-no" name="delivery" value="no">
+			<label for="delivery-no">No</label>
+			
+			<input type="submit" value="Complete Purchase">
+		</form>
+	</main>
+	
+	<footer>
+		<p>&copy; 2023 Bikes for Sale. All rights reserved.</p>
+	</footer>
+</body>
+</html>

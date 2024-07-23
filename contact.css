@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: rgb(137, 132, 132);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav a {
+  color: rgb(247, 237, 237);
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label, input, textarea {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: rgb(159, 156, 156);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+}
